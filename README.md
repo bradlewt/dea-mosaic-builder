@@ -11,10 +11,18 @@
 </div>
 <br />
 
-<div align="center">
-  <h3 align = "center"> RWD Raster builder </h3>
-</div>
+<img align="center" src="static/readme-images/header.jpg" alt="Readme header image showing pre-flood and flood outputs using the RWD raster builder for a location in Lake Chad, Chad, Africa.">
+
 <br />
+
+# RWD Raster Builder
+
+
+The RWD Raster Builder, builds a raster dataset using the Digital Earth Africa (DEA) Toolkit based on Sentinel-1 analysis-ready radar backscatter data. Sentinel-1, operated by the ESA as part of the Copernicus Program provides these observatiosns every 6-12 days over Africa. This gives near real-time data for accurate field analysis and estimation. The DEA Toolkit also has ready-to-work workflows of complex real-world problems that can be cutomized to requirements. More on this can be found on the [Read World Examples](https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Real_world_examples/index.html) page.
+
+A major part of the [flood-mosaic](/flood-mosaic.ipynb) Jupyter Notebook was developed using the [Water Detection With Sentinel-1](https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Real_world_examples/Radar_water_detection.html), which is one of the real world examples in the DEA Toolkit.
+
+The Jupyter Notebooks in this repository run in the [DEA Analysis Sandbox](https://docs.digitalearthafrica.org/en/latest/sandbox/index.html).
 
 
 <!-- TABLE OF CONTENTS -->
@@ -24,7 +32,7 @@
     <li><a href="#contributors">Contributors</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#references">References</a></li>
   </ol>
 </details>
 
@@ -48,13 +56,16 @@ Joel Rhine: [Email](mailto:joelrhine7@gmail.com)
 Website Link: [Joel Rhine | Home](https://joelrhine.tech)
 
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+<!-- REFERENCES -->
+## References
 
 * [Img Shields](https://shields.io)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-    
+<div align="right">
+
+[(back to top)](#rwd-raster-builder)
+
+</div>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
