@@ -33,7 +33,7 @@ The DEA Toolkit also has ready-to-work workflows of complex real-world problems 
 
 
 <!-- TABLE OF CONTENTS -->
-<details open>
+<details>
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#prerequisites">Prerequisites</a></li>
@@ -72,6 +72,11 @@ After logging in, choose the default environment with 2 Cores and 16 GB RAM. If 
 <div align=justify>
 
 ## Clone Repository
+
+<div align="center">
+  <img src="static/readme-images/new-project.jpg" alt="Image of new project folder creation process and new terminal launch within the project folder" width=80%>
+</div>
+<br />
 
 1. Navigate to the root directory by clicking the "folder" icon in directory path
 2. In the root directory, create a new folder with any project name. Open the project folder
