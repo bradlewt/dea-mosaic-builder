@@ -62,7 +62,7 @@ The DEA Analysis Sandbox runs on the DEA server, which is an AWS EC2 instance. I
 
 Naigate to the [Login](https://docs.digitalearthafrica.org/en/latest/sandbox/access.html) page, once the account has been created.
 
-After logging in, choose the default environment with 2 Cores and 16 GB RAM. If for some reason this environment is slow, a later switch to the large environment is possible as well, without any loss of data. Hit "Start" and the server should begin starting up.
+After logging in, choose the default environment with 2 Cores and 16 GB RAM. Hit "Start" and the server should begin starting up.
 
 <br />
 <br />
@@ -70,6 +70,10 @@ After logging in, choose the default environment with 2 Cores and 16 GB RAM. If 
   <img src="static/readme-images/env-options.jpg" alt="Image of the Digital Earth Africa analysis sandbox environment selection. Two options shown - Default Environment with 2 cores and 14 GB RAM and Large environment with 4 cores and 32 GB RAM" width=80%>
 </div>
 <br />
+<br />
+
+> If for some reason this environment is slow, a later switch to the large environment is possible as well, without any loss of data
+
 <br />
 
 </div>
