@@ -56,7 +56,7 @@ The DEA Toolkit also has ready-to-work workflows of complex real-world problems 
 <!-- PREREQUISITES -->
 <div align=justify>
 
-## Prerequisites
+## 1. Prerequisites
 
 The DEA Analysis Sandbox runs on the DEA server, which is an AWS EC2 instance. In order to access the Sandbox, create an account by following the instructions on the [Getting Started Page](https://docs.digitalearthafrica.org/en/latest/sandbox/access.html)
 
@@ -83,7 +83,7 @@ After logging in, choose the default environment with 2 Cores and 16 GB RAM. Hit
 <!-- CLONE REPOSITORY -->
 <div align=justify>
 
-## Clone Repository
+## 2. Clone Repository
 <br /><br />
 <div align="center">
   <img src="static/readme-images/new-project.jpg" alt="Image of new project folder creation process and new terminal launch within the project folder" width=80%>
@@ -122,7 +122,7 @@ The repo will be cloned to the new project directory.
 <!-- CREATE DIRECTORIES -->
 <div align=justify>
 
-## Create Directories
+## 3. Create Directories
 
 Create two new folders inside the repo directory and name them "input" and "output". 
 
@@ -150,7 +150,7 @@ Open the "input" directory and upload the gridded vector (geojson) file here.
 <!-- RUN NOTEBOOK -->
 <div align=justify>
 
-## Run Notebook
+## 4. Run Notebook
 
 Ensure all steps have been followed and a proper vector file is present in the "input" folder. 
 
@@ -182,27 +182,27 @@ Save changes in the notebook and run.
 
 
 <!-- CONTRIBUTORS -->
-## Contributors:
+## 5. Contributors:
 
 <a href="https://github.com/rhinejoel/rwd-raster-builder/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=rhinejoel/rwd-raster-builder" alt="contrib.rocks image" />
 </a>
 
 <!-- LICENSE -->
-## License
+## 6. License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 <!-- CONTACT -->
-## Contact
+## 7. Contact
 
 Joel Rhine: [Email](mailto:joelrhine7@gmail.com)
 Website Link: [Joel Rhine | Home](https://joelrhine.tech)
 
 
 <!-- REFERENCES -->
-## References
+## 8. References
 
 * [Digital Earth Africa](https://www.digitalearthafrica.org/)
 * [DEA Analysis Sandbox](https://docs.digitalearthafrica.org/en/latest/sandbox/index.html)
