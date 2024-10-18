@@ -11,11 +11,11 @@
 </div>
 
 <br />
-
+<br />
 <div align="center">
   <img src="static/readme-images/header.jpg" alt="Readme header image showing pre-flood and flood outputs using the RWD raster builder for a location in Lake Chad, Chad, Africa." width=80%>
 </div>
-
+<br />
 <br />
 
 <div align=justify>
@@ -26,7 +26,11 @@ The RWD Raster Builder, builds a raster dataset using the Digital Earth Africa (
 
 The DEA Toolkit also has ready-to-work workflows of complex real-world problems that can be cutomized to requirements. More on this can be found on the [Read World Examples](https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Real_world_examples/index.html) page. A major part of the [flood-mosaic](/flood-mosaic.ipynb) Jupyter Notebook was developed using the [Water Detection With Sentinel-1](https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Real_world_examples/Radar_water_detection.html), which is one of the real world examples in the DEA Toolkit.
 
+<br />
+
 > The Jupyter Notebooks in this repository run in the [DEA Analysis Sandbox](https://docs.digitalearthafrica.org/en/latest/sandbox/index.html).
+
+<br />
 
 </div>
 
@@ -46,7 +50,7 @@ The DEA Toolkit also has ready-to-work workflows of complex real-world problems 
     <li><a href="#references">References</a></li>
   </ol>
 </details>
-
+<br /><br />
 
 
 <!-- PREREQUISITES -->
@@ -60,9 +64,13 @@ Naigate to the [Login](https://docs.digitalearthafrica.org/en/latest/sandbox/acc
 
 After logging in, choose the default environment with 2 Cores and 16 GB RAM. If for some reason this environment is slow, a later switch to the large environment is possible as well, without any loss of data. Hit "Start" and the server should begin starting up.
 
+<br />
+<br />
 <div align="center">
   <img src="static/readme-images/env-options.jpg" alt="Image of the Digital Earth Africa analysis sandbox environment selection. Two options shown - Default Environment with 2 cores and 14 GB RAM and Large environment with 4 cores and 32 GB RAM" width=80%>
 </div>
+<br />
+<br />
 
 </div>
 
@@ -72,28 +80,39 @@ After logging in, choose the default environment with 2 Cores and 16 GB RAM. If 
 <div align=justify>
 
 ## Clone Repository
-
+<br /><br />
 <div align="center">
   <img src="static/readme-images/new-project.jpg" alt="Image of new project folder creation process and new terminal launch within the project folder" width=80%>
 </div>
+<br /><br />
 <br />
 
 1. Navigate to the root directory by clicking the "folder" icon in directory path
 2. In the root directory, create a new folder with any project name. Open the project folder
 3. Inside the project folder, click on the "+" icon and select "Terminal". This will open a terminal in the project folder
 4. Copy the command below. Click on the Terminal window, paste and hit "Enter"
+
+<br />
+<br />
         
         git pull https://github.com/rhinejoel/rwd-raster-builder.git
 
 <br />
+<br />
 <div align="center">
   <img src="static/readme-images/clone.jpg" alt="Image of the Digital Earth Africa analysis sandbox environment selection. Two options shown - Default Environment with 2 cores and 14 GB RAM and Large environment with 4 cores and 32 GB RAM" width=90%>
 </div>
+<br />
+<br />
 
 The repo will be cloned to the new project directory.
+
+<br />
+
 > Contents of the directory may differ from that of the image. The image just serves as a reference
 </div>
 
+<br />
 
 
 <!-- CREATE DIRECTORIES -->
@@ -102,15 +121,24 @@ The repo will be cloned to the new project directory.
 ## Create Directories
 
 Create two new folders inside the repo directory and name them "input" and "output". 
+<br />
 
 > These directories are required for data management and proper functioning of the code
 
+<br />
+
 Open the "input" directory and upload the gridded vector (geojson) file here. 
+
+<br />
 
 > The CRS of the vector file must be **EPSG:4326** and the grid size must be **0.1 degrees**
 
+<br />
+
 > If using ESRI shapefile, upload all the auxillary files individually along with the .shp file
 </div>
+
+<br />
 
 
 
@@ -123,19 +151,29 @@ Ensure all steps have been followed and a proper vector file is present in the "
 
 Once done, in the "Customize Data" section of the notebook, make changes based on requirements and the vector file name
 
+<br />
+
         # DEFINE PERIODS
         pre_flood = ['2024-04-15', '2024-05-15', '2024-06-15', '2023-07-15'] # 4 MONTHS PRIOR
         flood = ['2024-07-26', '2024-08-26', '2024-09-26', '2024-10-15'] # 4 MONTHS DURING
 
+<br />
+
         # DEFINE THRESHOLD
         threshold_vh = -35  # IF REQUIRED
+
+<br />
 
         # UPLOAD FILE
         grid = gpd.read_file("input/vector_file_name.geojson")
 
+<br />
+
 Save changes in the notebook and run.
 
 </div>
+
+<br />
 
 
 <!-- CONTRIBUTORS -->
