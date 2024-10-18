@@ -13,7 +13,7 @@
 <br />
 <br />
 <div align="center">
-  <img src="static/readme-images/rwd-header.png" alt="Readme header image showing pre-flood and flood outputs using the RWD raster builder for a location in Lake Chad, Chad, Africa." width=40%>
+  <img src="static/readme-images/rwd-header.png" alt="Readme header image showing pre-flood and flood outputs using the RWD raster builder for a location in Lake Chad, Chad, Africa." width=30%>
 </div>
 <br />
 <br />
