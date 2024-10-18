@@ -1,5 +1,5 @@
 <!-- PROJECT SHIELDS -->
-<div align="center">
+<div align="center" id="readme-top">
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -161,7 +161,7 @@ Website Link: [Joel Rhine | Home](https://joelrhine.tech)
 
 <div align="right">
 
-[(back to top &#8593;)](#rwd-raster-builder)
+[(back to top &#8593;)](#readme-top)
 
 </div>
 
@@ -179,14 +179,3 @@ Website Link: [Joel Rhine | Home](https://joelrhine.tech)
 [license-url]: https://github.com/rhinejoel/rwd-raster-builder/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/joel-rhine
-
-[Figma]: https://img.shields.io/badge/figma-D93BDB?style=for-the-badge&logo=figma&logoColor=white
-[Figma-url]: https://www.figma.com
-[HTML]: https://img.shields.io/badge/html5-DE6952?style=for-the-badge&logo=html5&logoColor=white
-[HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
-[CSS]: https://img.shields.io/badge/css3-4E6CF5?style=for-the-badge&logo=css3&logoColor=4FC08D
-[CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
-[JavaScript]: https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=61DAFB
-[JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
-[Hostinger]: https://img.shields.io/badge/hostinger-232267?style=for-the-badge&logo=hostinger&logoColor=61DAFB
-[Hostinger-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
