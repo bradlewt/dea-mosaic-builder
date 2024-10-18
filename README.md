@@ -35,6 +35,11 @@
   <img src="https://contrib.rocks/image?repo=rhinejoel/rwd-raster-builder" alt="contrib.rocks image" />
 </a>
 
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
 
 <!-- CONTACT -->
 ## Contact
