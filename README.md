@@ -24,7 +24,7 @@ The RWD Raster Builder, builds a raster dataset using the Digital Earth Africa (
 
 The DEA Toolkit also has ready-to-work workflows of complex real-world problems that can be cutomized to requirements. More on this can be found on the [Read World Examples](https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Real_world_examples/index.html) page. A major part of the [flood-mosaic](/flood-mosaic.ipynb) Jupyter Notebook was developed using the [Water Detection With Sentinel-1](https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Real_world_examples/Radar_water_detection.html), which is one of the real world examples in the DEA Toolkit.
 
-The Jupyter Notebooks in this repository run in the [DEA Analysis Sandbox](https://docs.digitalearthafrica.org/en/latest/sandbox/index.html).
+> The Jupyter Notebooks in this repository run in the [DEA Analysis Sandbox](https://docs.digitalearthafrica.org/en/latest/sandbox/index.html).
 
 </div>
 
@@ -33,6 +33,7 @@ The Jupyter Notebooks in this repository run in the [DEA Analysis Sandbox](https
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#clone-repository">Clone Repository</a></li>
     <li><a href="#contributors">Contributors</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -50,9 +51,25 @@ Naigate to the [Login](https://docs.digitalearthafrica.org/en/latest/sandbox/acc
 
 After logging in, choose the default environment with 2 Cores and 16 GB RAM. If for some reason this environment is slow, a later switch to the large environment is possible as well, without any loss of data. Hit "Start" and the server should begin starting up.
 
-<img src="static/readme-images/env-options.jpg" alt="">
+<img src="static/readme-images/env-options.jpg" alt="Image of the Digital Earth Africa analysis sandbox environment selection. Two options shown - Default Environment with 2 cores and 14 GB RAM and Large environment with 4 cores and 32 GB RAM">
 
 </div>
+
+<div align=justify>
+
+## Clone Repository
+
+1. Navigate to the root directory by clicking the "folder" icon in directory path
+2. In the root directory, create a new folder with any project name. Open the project folder
+3. Inside the project folder, click on the "+" icon and select "Terminal". This will open a terminal in the project folder
+4. Copy the below command. Click on the Terminal window, paste and hit "Enter"
+        
+        git pull https://github.com/rhinejoel/rwd-raster-builder.git
+
+
+</div>
+
+
 
 ## Contributors:
 
