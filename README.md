@@ -13,7 +13,7 @@
 <br />
 <br />
 <div align="center">
-  <img src="static/readme-images/header.jpg" alt="Readme header image showing pre-flood and flood outputs using the RWD raster builder for a location in Lake Chad, Chad, Africa." width=80%>
+  <img src="static/readme-images/rwd-header.png" alt="Readme header image showing pre-flood and flood outputs using the RWD raster builder for a location in Lake Chad, Chad, Africa." width=40%>
 </div>
 <br />
 <br />
@@ -121,6 +121,7 @@ The repo will be cloned to the new project directory.
 ## Create Directories
 
 Create two new folders inside the repo directory and name them "input" and "output". 
+
 <br />
 
 > These directories are required for data management and proper functioning of the code
