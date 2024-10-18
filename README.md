@@ -60,7 +60,7 @@ The DEA Toolkit also has ready-to-work workflows of complex real-world problems 
 
 The DEA Analysis Sandbox runs on the DEA server, which is an AWS EC2 instance. In order to access the Sandbox, create an account by following the instructions on the [Getting Started Page](https://docs.digitalearthafrica.org/en/latest/sandbox/access.html)
 
-Naigate to the [Login](https://docs.digitalearthafrica.org/en/latest/sandbox/access.html) page, once the account has been created.
+Navigate to the [Login](https://docs.digitalearthafrica.org/en/latest/sandbox/access.html) page, once the account has been created.
 
 After logging in, choose the default environment with 2 Cores and 16 GB RAM. Hit "Start" and the server should begin starting up.
 
