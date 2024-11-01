@@ -206,8 +206,10 @@ Website Link: [Joel Rhine | Home](https://joelrhine.tech)
 
 * [Digital Earth Africa](https://www.digitalearthafrica.org/)
 * [DEA Analysis Sandbox](https://docs.digitalearthafrica.org/en/latest/sandbox/index.html)
-* [Google Workspace API - Python Quickstart](https://developers.google.com/drive/api/quickstart/python)
-* [Google Workspace API - API Reference](https://developers.google.com/drive/api/reference/rest/v3/about)
+* [G-Drive API - Python Quickstart](https://developers.google.com/drive/api/quickstart/python)
+* [G-Drive API - API Reference](https://developers.google.com/drive/api/reference/rest/v3/about)
+* [G-Drive API - Upload File Data](https://developers.google.com/drive/api/guides/manage-uploads#python_1) 
+* [G-Drive API - Media Upload](https://github.com/googleapis/google-api-python-client/blob/main/docs/media.md)
 
 
 <div align="right">
