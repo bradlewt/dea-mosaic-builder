@@ -18,7 +18,7 @@ class GDrive():
         # self.u_credential_path = "../creds/token.json"
 
     def create_user_token(self):
-        # Creates a user token. On first run, run locally to generate token.json and add to root.
+        # Creates a user token. On first run, run locally to generate token.json and add to .secrets/
         creds = None
 
         if os.path.exists("secrets/token.json"):
@@ -99,7 +99,7 @@ class GDrive():
 
     def delete_files(self, file_id:str): 
         """
-        file_id: file or Folder ID whose contents need to be deleted
+        file_id: file or folder ID whose contents need to be deleted
         """
         results = self.service.files().list(q = "'{}' in parents".format(file_id)).execute()
         items = results.get('files', [])
