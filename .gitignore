@@ -3,4 +3,6 @@ output
 error_centroids.json
 secrets
 test
+__pycache__
+.ipynb_checkpoints
 
