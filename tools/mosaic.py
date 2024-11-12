@@ -1,7 +1,6 @@
-import os, glob, rasterio
+import os, glob
 from osgeo import gdal
 from typing import Literal
-from rasterio.merge import merge
 
 class CreateMosaic():
     def __init__(self):
