@@ -220,7 +220,7 @@ Website Link: [Joel Rhine | Home](https://joelrhine.tech)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/rhinejoel/rwd-raster-builder.svg?style=for-the-badge
+<!-- [contributors-shield]: https://img.shields.io/github/contributors/rhinejoel/rwd-raster-builder.svg?style=for-the-badge
 [contributors-url]: https://github.com/rhinejoel/rwd-raster-builder/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/rhinejoel/rwd-raster-builder.svg?style=for-the-badge
 [forks-url]: https://github.com/rhinejoel/rwd-raster-builder/network/members
@@ -231,4 +231,16 @@ Website Link: [Joel Rhine | Home](https://joelrhine.tech)
 [license-shield]: https://img.shields.io/github/license/rhinejoel/rwd-raster-builder.svg?style=for-the-badge
 [license-url]: https://github.com/rhinejoel/rwd-raster-builder/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/joel-rhine -->
+[contributors-shield]: https://img.shields.io/github/contributors/rhinejoel/rwd-raster-builder.svg
+[contributors-url]: https://github.com/rhinejoel/rwd-raster-builder/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/rhinejoel/rwd-raster-builder.svg
+[forks-url]: https://github.com/rhinejoel/rwd-raster-builder/network/members
+[stars-shield]: https://img.shields.io/github/stars/rhinejoel/rwd-raster-builder.svg
+[stars-url]: https://github.com/rhinejoel/rwd-raster-builder/stargazers
+[issues-shield]: https://img.shields.io/github/issues/rhinejoel/rwd-raster-builder.svg
+[issues-url]: https://github.com/rhinejoel/rwd-raster-builder/issues
+[license-shield]: https://img.shields.io/github/license/rhinejoel/rwd-raster-builder.svg
+[license-url]: https://github.com/rhinejoel/rwd-raster-builder/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/joel-rhine
