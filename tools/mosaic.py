@@ -11,7 +11,7 @@ class CreateMosaic():
         indirs: list of folders containing .tif files to be merged
         root: parent folder path of indirs
         a3: alpha3 code of the country
-        tifdir: output directory for .the tif files
+        tifdir: output directory for .the tif files (not recommended)
         """
         period = os.path.basename(root)
         merged_folder = os.path.join(root, '{}_merged'.format(period))
@@ -38,25 +38,32 @@ class CreateMosaic():
                     # create vrt if it does not exist
                     print("Creating {}.vrt".format(outname))
                     vrt = gdal.BuildVRT(vrt_file, files)
+                    vrt = None
 
-                if tifdir != None:
+                if tifdir != None and os.path.exists(vrt_file):
                     # create tif if output dir is specified
                     vrt = gdal.Open(vrt_file)
                     tif_out = os.path.join(tifdir, outname + ".tif")
                     print("Creating {}.tif".format(outname))
                     gdal.Translate(tif_out, vrt, format="GTiff")
+                    vrt = None
+                
 
-    # def vrt2tif(self, indir:str, outdir:str) -> None:
-    #     ext = '*.vrt'
-    #     q = os.path.join(indir, ext)
-    #     files = glob.glob(q)
-    #     if len(files) == 0:
-    #         print("No .vrt files found. Check folder name or first generate .vrt files by running cm.create_mosiac()")
-    #     else:
-    #         print("Generating...")
-    #         for f in files:
-    #             outname = os.path.splitext(os.path.basename(f))[0]
-    #             print("Converting {}.vrt to {}.tif".format(outname, outname))
-    #             outpath = os.path.join(outdir, outname + ".tif")
-    #             vrt = gdal.Open(f)
-    #             gdal.Translate(outpath, vrt, format="GTiff")
+    def vrt2tif(self, indir:str, outdir:str) -> None:
+        """
+        indir: input directory of the .vrt files
+        outdir: output directory of the tif files
+        """
+        ext = '*.vrt'
+        q = os.path.join(indir, ext)
+        files = glob.glob(q)
+        if len(files) == 0:
+            print("No .vrt files found. Check folder name or first generate .vrt files by running cm.create_mosiac()")
+        else:
+            print("Generating...")
+            for f in files:
+                outname = os.path.splitext(os.path.basename(f))[0]
+                print("Converting {}.vrt to {}.tif".format(outname, outname))
+                outpath = os.path.join(outdir, outname + ".tif")
+                vrt = gdal.Open(f)
+                gdal.Translate(outpath, vrt, format="GTiff")
