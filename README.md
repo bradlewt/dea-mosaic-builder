@@ -2,7 +2,7 @@
 <div align="center" id="readme-top">
 
 [![Contributors][contributors-shield]][contributors-url]
-[![Build][build-shield]][build-url]
+![GitHub Actions Workflow Status][build-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -15,7 +15,7 @@
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/rhinejoel/rwd-raster-builder.svg?style=flat-squared
-[build-url]: https://img.shields.io/github/actions/workflow/status/rhinejoel/dea-mosaic-builder/.github/workflows/black.yml?style=flat-squared
+[build-url]: https://img.shields.io/github/actions/workflow/status/rhinejoel/dea-mosaic-builder/black.yml?style=flat-squared
 [contributors-url]: https://github.com/rhinejoel/rwd-raster-builder/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/rhinejoel/rwd-raster-builder.svg?style=flat-squared
 [forks-url]: https://github.com/rhinejoel/rwd-raster-builder/network/members
