@@ -114,7 +114,7 @@ After logging in, choose the default environment with 2 Cores and 16 GB RAM. Hit
 <br />
 <br />
         
-        git pull https://github.com/rhinejoel/rwd-raster-builder.git
+        git clone https://github.com/rhinejoel/rwd-raster-builder.git
 
 <br />
 <br />
