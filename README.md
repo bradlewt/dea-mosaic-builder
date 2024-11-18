@@ -2,6 +2,7 @@
 <div align="center" id="readme-top">
 
 [![Contributors][contributors-shield]][contributors-url]
+[![Build][build-shield]][build-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -12,7 +13,9 @@
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/rhinejoel/rwd-raster-builder.svg?style=flat-squared
+[build-url]: https://img.shields.io/github/actions/workflow/status/rhinejoel/dea-mosaic-builder/.github/workflows/black.yml?style=flat-squared
 [contributors-url]: https://github.com/rhinejoel/rwd-raster-builder/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/rhinejoel/rwd-raster-builder.svg?style=flat-squared
 [forks-url]: https://github.com/rhinejoel/rwd-raster-builder/network/members
@@ -37,7 +40,7 @@
 
 # RWD Raster Builder
 
-The RWD Raster Builder, builds a raster dataset using the Digital Earth Africa (DEA) Toolkit based on Sentinel-1 analysis-ready radar backscatter data. Sentinel-1, operated by the ESA as part of the Copernicus Program provides these observatiosns every 6-12 days over Africa. This gives near real-time data for accurate field analysis and estimation. 
+The RWD Raster Builder, builds a raster dataset using the Digital Earth Africa (DEA) Toolkit based on Sentinel-1 analysis-ready radar backscatter data. Sentinel-1, operated by the ESA as part of the Copernicus Program provides these observatiosns every 6-12 days over Africa. This gives near real-time data for accurate field analysis and estimation.
 
 The DEA Toolkit also has ready-to-work workflows of complex real-world problems that can be cutomized to requirements. More on this can be found on the [Read World Examples](https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Real_world_examples/index.html) page. A major part of the [flood-mosaic](/flood-mosaic.ipynb) Jupyter Notebook was developed using the [Water Detection With Sentinel-1](https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Real_world_examples/Radar_water_detection.html), which is one of the real world examples in the DEA Toolkit.
 
@@ -48,8 +51,6 @@ The DEA Toolkit also has ready-to-work workflows of complex real-world problems 
 <br />
 
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -66,7 +67,6 @@ The DEA Toolkit also has ready-to-work workflows of complex real-world problems 
   </ol>
 </details>
 <br /><br />
-
 
 <!-- PREREQUISITES -->
 <div align=justify>
@@ -93,13 +93,13 @@ After logging in, choose the default environment with 2 Cores and 16 GB RAM. Hit
 
 </div>
 
-
-
 <!-- CLONE REPOSITORY -->
 <div align=justify>
 
 ## 2. Clone Repository
+
 <br /><br />
+
 <div align="center">
   <img src="static/readme-images/new-project.jpg" alt="Image of new project folder creation process and new terminal launch within the project folder" width=80%>
 </div>
@@ -129,17 +129,17 @@ The repo will be cloned to the new project directory.
 <br />
 
 > Contents of the directory may differ from that of the image. The image just serves as a reference
+
 </div>
 
 <br />
-
 
 <!-- CREATE DIRECTORIES -->
 <div align=justify>
 
 ## 3. Create Directories
 
-Create two new folders inside the repo directory and name them "input" and "output". 
+Create two new folders inside the repo directory and name them "input" and "output".
 
 <br />
 
@@ -147,7 +147,7 @@ Create two new folders inside the repo directory and name them "input" and "outp
 
 <br />
 
-Open the "input" directory and upload the gridded vector (geojson) file here. 
+Open the "input" directory and upload the gridded vector (geojson) file here.
 
 <br />
 
@@ -156,18 +156,17 @@ Open the "input" directory and upload the gridded vector (geojson) file here.
 <br />
 
 > If using ESRI shapefile, upload all the auxillary files individually along with the .shp file
+
 </div>
 
 <br />
-
-
 
 <!-- RUN NOTEBOOK -->
 <div align=justify>
 
 ## 4. Run Notebook
 
-Ensure all steps have been followed and a proper vector file is present in the "input" folder. 
+Ensure all steps have been followed and a proper vector file is present in the "input" folder.
 
 Once done, in the "Customize Data" section of the notebook, make changes based on requirements and the vector file name
 
@@ -195,8 +194,8 @@ Save changes in the notebook and run.
 
 <br />
 
-
 <!-- CONTRIBUTORS -->
+
 ## 5. Contributors:
 
 <a href="https://github.com/rhinejoel/rwd-raster-builder/graphs/contributors">
@@ -204,28 +203,28 @@ Save changes in the notebook and run.
 </a>
 
 <!-- LICENSE -->
+
 ## 6. License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-
 <!-- CONTACT -->
+
 ## 7. Contact
 
 Joel Rhine: [Email](mailto:joelrhine7@gmail.com)
 Website Link: [Joel Rhine | Home](https://joelrhine.tech)
 
-
 <!-- REFERENCES -->
+
 ## 8. References
 
-* [Digital Earth Africa](https://www.digitalearthafrica.org/)
-* [DEA Analysis Sandbox](https://docs.digitalearthafrica.org/en/latest/sandbox/index.html)
-* [G-Drive API - Python Quickstart](https://developers.google.com/drive/api/quickstart/python)
-* [G-Drive API - API Reference](https://developers.google.com/drive/api/reference/rest/v3/about)
-* [G-Drive API - Upload File Data](https://developers.google.com/drive/api/guides/manage-uploads#python_1) 
-* [G-Drive API - Media Upload](https://github.com/googleapis/google-api-python-client/blob/main/docs/media.md)
-
+- [Digital Earth Africa](https://www.digitalearthafrica.org/)
+- [DEA Analysis Sandbox](https://docs.digitalearthafrica.org/en/latest/sandbox/index.html)
+- [G-Drive API - Python Quickstart](https://developers.google.com/drive/api/quickstart/python)
+- [G-Drive API - API Reference](https://developers.google.com/drive/api/reference/rest/v3/about)
+- [G-Drive API - Upload File Data](https://developers.google.com/drive/api/guides/manage-uploads#python_1)
+- [G-Drive API - Media Upload](https://github.com/googleapis/google-api-python-client/blob/main/docs/media.md)
 
 <div align="right">
 
