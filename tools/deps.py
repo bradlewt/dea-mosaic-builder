@@ -8,7 +8,7 @@ try:
     import matplotlib.pyplot as plt
     import rioxarray as rio
     import pandas as pd
-    
+
     from rasterio.merge import merge
     from rasterio.plot import show
     from shapely.geometry import Point
@@ -30,11 +30,17 @@ try:
     from IPython.display import display
 
     from tools.gdrive import GDrive
+
     gd = GDrive()
 
     from tools.mosaic import CreateMosaic
+
     cm = CreateMosaic()
 
-    print('\033[32m' + "Dependencies Import Successful" + '\033[0m')
+    print("\033[32m" + "Dependencies Import Successful" + "\033[0m")
 except ImportError:
-    raise ImportError('\033[31m' + "Dependencies Not Imported Successfully, Please Check New Packages Introduced And Install Manually" + '\033[0m')
+    raise ImportError(
+        "\033[31m"
+        + "Dependencies Not Imported Successfully, Please Check New Packages Introduced And Install Manually"
+        + "\033[0m"
+    )

@@ -43,7 +43,7 @@ The DEA Toolkit also has ready-to-work workflows of complex real-world problems 
 
 <br />
 
-> The Jupyter Notebooks in this repository run in the [DEA Analysis Sandbox](https://docs.digitalearthafrica.org/en/latest/sandbox/index.html).
+> The Jupyter Notebooks in this repository run in the [DEA Analysis Sandbox](https://sandbox.digitalearth.africa/).
 
 <br />
 

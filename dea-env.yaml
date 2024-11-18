@@ -1,14 +1,17 @@
 name: dea-env
 channels:
-- anaconda
-- conda-forge
+  - anaconda
+  - conda-forge
 dependencies:
-- datacube
-- geopandas
-- conda-forge::google-api-python-client
-- python=3.10
-- conda-forge::rioxarray
-- anaconda::scikit-image
-- pip:
-    - deafrica-tools
-
+  - conda-forge::black
+  - conda-forge::black-jupyter
+  - datacube
+  - geopandas
+  - conda-forge::google-api-python-client
+  - pytest
+  - conda-forge::pytest-cov
+  - python=3.10
+  - conda-forge::rioxarray
+  - anaconda::scikit-image
+  - pip:
+      - deafrica-tools

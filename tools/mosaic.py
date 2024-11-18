@@ -1,12 +1,15 @@
-import os, glob
+import os
+import glob
 from osgeo import gdal
-from typing import Literal
 
-class CreateMosaic():
+
+class CreateMosaic:
     def __init__(self):
         gdal.UseExceptions()
 
-    def create_mosaic(self, indirs:list[str], root:str, a3:str, tifdir:str = None) -> None:
+    def create_mosaic(
+        self, indirs: list[str], root: str, a3: str, tifdir: str = None
+    ) -> None:
         """
         indirs: list of folders containing .tif files to be merged
         root: parent folder path of indirs
@@ -14,7 +17,7 @@ class CreateMosaic():
         tifdir: output directory for .the tif files (not recommended)
         """
         period = os.path.basename(root)
-        merged_folder = os.path.join(root, '{}_merged'.format(period))
+        merged_folder = os.path.join(root, "{}_merged".format(period))
 
         if not os.path.exists(merged_folder):
             print("'merged' folder does not exist. Creating...")
@@ -29,7 +32,7 @@ class CreateMosaic():
                 print("{} is empty. Continuing to next directory".format(dir))
             else:
                 print("Found {} Files. Merging in {} folder".format(len(files), dir))
-                outname = '{}_{}_merged_{}'.format(a3, period, dir)
+                outname = "{}_{}_merged_{}".format(a3, period, dir)
                 vrt_file = os.path.join(merged_folder, outname + ".vrt")
 
                 if os.path.exists(vrt_file):
@@ -47,18 +50,19 @@ class CreateMosaic():
                     print("Creating {}.tif".format(outname))
                     gdal.Translate(tif_out, vrt, format="GTiff")
                     vrt = None
-                
 
-    def vrt2tif(self, indir:str, outdir:str) -> None:
+    def vrt2tif(self, indir: str, outdir: str) -> None:
         """
         indir: input directory of the .vrt files
         outdir: output directory of the tif files
         """
-        ext = '*.vrt'
+        ext = "*.vrt"
         q = os.path.join(indir, ext)
         files = glob.glob(q)
         if len(files) == 0:
-            print("No .vrt files found. Check folder name or first generate .vrt files by running cm.create_mosiac()")
+            print(
+                "No .vrt files found. Check folder name or first generate .vrt files by running cm.create_mosiac()"
+            )
         else:
             print("Generating...")
             for f in files:
