@@ -18,7 +18,7 @@ class GDrive:
         self.service = build("drive", "v3", credentials=self.u_creds)
         # self.u_credential_path = "../creds/token.json"
 
-    def create_user_token(self):
+    def create_user_token(self) -> None:
         """
         Creates a user token. On first run, run locally to generate token.json and add to .secrets/
         """
@@ -40,9 +40,9 @@ class GDrive:
             token.write(creds.to_json())
         return creds
 
-    def create_token(self):
+    def create_token(self) -> None:
         """
-        Creates service token. Will be depreciated
+        Creates service token. Will be depreciated.
         """
         creds = None
         creds = service_account.Credentials.from_service_account_file(
@@ -50,8 +50,10 @@ class GDrive:
         )
         return creds
 
-    def list_files(self):
-        # Lists all the files and folders in the root directory of g-drive.
+    def list_files(self) -> None:
+        """
+        Lists all the files and folders in the root directory of g-drive.
+        """
         try:
             results = (
                 self.service.files()
@@ -70,9 +72,18 @@ class GDrive:
 
     def upload_files(self, file_paths: list[str], folder_id: str, del_f: bool = True):
         """
-        file_paths: list of file paths to be uploaded
-        folder_id: google drive folder ID to be uploaded into
-        def_f: boolean to specify deletion of file from local path after upload. True by default
+        Uploads files to the specified folder
+
+        Parameters:
+        file_paths: list[str], required
+            List of file paths to be uploaded.
+        folder_id: str, required
+            Google drive folder ID to be uploaded into.
+        del_f: bool, optional
+            Boolean to specify deletion of file from local path after upload. True by default.
+
+        Returns:
+        None
         """
         # Uploads list of files in file_paths to folder_id
         for f_path in file_paths:
@@ -108,9 +119,16 @@ class GDrive:
                 file = None
         return
 
-    def delete_files(self, file_id: str):
+    def delete_files(self, file_id: str) -> None:
         """
-        file_id: file or folder ID whose contents need to be deleted
+        Deletes the fileID or contents of folderID specified
+
+        Parameters:
+        file_id: str, required
+            File or folder ID whose contents need to be deleted
+
+        Returns:
+        None
         """
         results = (
             self.service.files().list(q="'{}' in parents".format(file_id)).execute()
@@ -124,6 +142,12 @@ class GDrive:
                 print(f"An error occurred: {error}")
 
     def get_storage(self) -> pd.DataFrame:
+        """
+        Gets Google drive storage information.
+
+        Returns:
+        storage_df: pd.DataFrame
+        """
         storage = self.service.about().get(fields="storageQuota").execute()
         print("Google Drive Storage")
 

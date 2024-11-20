@@ -11,10 +11,20 @@ class CreateMosaic:
         self, indirs: list[str], root: str, a3: str, tifdir: str = None
     ) -> None:
         """
-        indirs: list of folders containing .tif files to be merged
-        root: parent folder path of indirs
-        a3: alpha3 code of the country
-        tifdir: output directory for .the tif files (not recommended)
+        Creates a .vrt mosaic of input rasters. Creates .tif if tifdir is specified.
+
+        Parameters:
+        indirs: list[str], required
+            List of folders containing .tif files to be merged.
+        root: str, required
+            Parent folder path of indirs.
+        a3: str, required
+            Alpha3 code of the country.
+        tifdir: str = None, optional
+        Output directory for .the tif files (not recommended).
+
+        Returns:
+        None
         """
         period = os.path.basename(root)
         merged_folder = os.path.join(root, "{}_merged".format(period))
@@ -53,8 +63,16 @@ class CreateMosaic:
 
     def vrt2tif(self, indir: str, outdir: str) -> None:
         """
-        indir: input directory of the .vrt files
-        outdir: output directory of the tif files
+        Converts .vrt to .tif. Recommemded to use QGIS instead as it used gdal-C and this works on gdal-python.
+
+        Parameters:
+        indir: str, required
+        Input directory of the .vrt files
+        outdir: str, required
+        Output directory of the tif files
+
+        Returns:
+        None
         """
         ext = "*.vrt"
         q = os.path.join(indir, ext)
