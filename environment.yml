@@ -6,6 +6,7 @@ dependencies:
   - conda-forge::black
   - conda-forge::black-jupyter
   - datacube
+  - fpdf
   - geopandas
   - conda-forge::google-api-python-client
   - pytest
