@@ -10,17 +10,20 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
       with:
         python-version: '3.10'
-    - uses: mamba-org/setup-micromamba@v2
+        
+    - uses: mamba-org/setup-micromamba@v2.0.2
       with:
         environment-file: environment.yml
         init-shell: >-
           bash
-        # cache-environment: true
+        cache-environment: true
         post-cleanup: 'all'
+
     - name: Run custom command in micromamba environment
       run: pytest
       shell: micromamba-shell {0}
