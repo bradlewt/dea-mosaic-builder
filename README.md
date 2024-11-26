@@ -16,7 +16,7 @@
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/rhinejoel/rwd-raster-builder.svg?style=flat-squared
-[build-url]: https://img.shields.io/github/actions/workflow/status/rhinejoel/dea-mosaic-builder/micromamba.yml?style=flat-squared&logo=github&label=CI
+[build-url]: https://img.shields.io/github/actions/workflow/status/rhinejoel/dea-mosaic-builder/conda.yml?style=flat-squared&logo=github&label=CI
 [lint-url]: https://img.shields.io/github/actions/workflow/status/rhinejoel/dea-mosaic-builder/black.yml?style=flat-squared&label=lint
 [contributors-url]: https://github.com/rhinejoel/rwd-raster-builder/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/rhinejoel/rwd-raster-builder.svg?style=flat-squared
