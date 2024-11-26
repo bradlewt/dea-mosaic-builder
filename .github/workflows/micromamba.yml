@@ -25,7 +25,5 @@ jobs:
         post-cleanup: 'all'
 
     - name: Run custom command in micromamba environment
-      run: >-
-        apt-get install sqlite3 
-        pytest
+      run: pytest
       shell: micromamba-shell {0}
