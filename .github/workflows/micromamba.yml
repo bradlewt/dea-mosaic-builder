@@ -24,6 +24,9 @@ jobs:
         cache-environment: true
         post-cleanup: 'all'
 
-    - name: Run custom command in micromamba environment
-      run: raserio --version
-      shell: micromamba-shell {0}
+    # - name: Run custom command in micromamba environment
+    #   run: pytest
+    #   shell: micromamba-shell {0}
+
+    - name: Import numpy in micromamba environment (pwsh)
+      run: python -c "import rasterio"
