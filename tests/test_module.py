@@ -13,9 +13,8 @@ class TestClass:
         import pandas as pd
         from PIL import Image
         from fpdf import FPDF
-
-        # from rasterio.merge import merge
-        # from rasterio.plot import show
+        from rasterio.merge import merge
+        from rasterio.plot import show
         from shapely.geometry import Point
         from shapely.geometry import Polygon
         from datetime import date
