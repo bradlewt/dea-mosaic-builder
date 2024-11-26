@@ -1,4 +1,4 @@
-name: Python Package using Conda
+name: Python Package using Micromamba
 
 on: [push]
 
@@ -18,7 +18,11 @@ jobs:
       uses: mamba-org/setup-micromamba@v2.0.2
       with:
         environment-file: environment.yml
-    - name: Test with pytest
+        environment-name: test-env
+    - name: activate-env
       run: |
-        micromamba install pytest
+        micromamba activate test-env
+    - name: test-with-pytest
+      run: |
+        micromamba install pytest -c anaconda
         pytest
