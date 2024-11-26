@@ -19,7 +19,7 @@ jobs:
         environment-file: environment.yml
         init-shell: >-
           bash
-        cache-environment: true
+        # cache-environment: true
         post-cleanup: 'all'
     - name: Run custom command in micromamba environment
       run: pytest
