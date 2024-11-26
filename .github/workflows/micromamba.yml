@@ -19,6 +19,8 @@ jobs:
       with:
         environment-file: environment.yml
         environment-name: test-env
+        init-shell: >-
+          bash
     - name: activate-env
       run: |
         micromamba activate test-env
