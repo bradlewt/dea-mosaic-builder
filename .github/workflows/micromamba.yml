@@ -25,5 +25,5 @@ jobs:
         post-cleanup: 'all'
 
     - name: Run custom command in micromamba environment
-      run: pytest
+      run: raserio --version
       shell: micromamba-shell {0}
