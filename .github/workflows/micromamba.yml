@@ -18,8 +18,7 @@ jobs:
         cache-environment: true
         post-cleanup: 'all'
     - name: Run PyTest
-      run: pytest
-      shell: micromamba-shell {0}
-    - name: Run Deps
-      run: python tests/deps.py
+      run: 
+        pytest 
+        python tests/deps.py
       shell: micromamba-shell {0}
