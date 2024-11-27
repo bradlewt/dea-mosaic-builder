@@ -12,6 +12,7 @@ jobs:
     - uses: mamba-org/setup-micromamba@v2
       with:
         environment-file: environment.yml
+        environment-name: ci
         init-shell: >-
           bash
           powershell
