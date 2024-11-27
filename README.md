@@ -4,6 +4,7 @@
 [![Contributors][contributors-shield]][contributors-url]
 ![GitHub Actions Workflow Status][build-url]
 ![Lint Workflow Status][lint-url]
+[![Documentation Status](https://readthedocs.org/projects/mosaicbuilder/badge/?version=latest)](https://mosaicbuilder.readthedocs.io/en/latest/?badge=latest)
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -17,7 +18,7 @@
 
 [contributors-shield]: https://img.shields.io/github/contributors/rhinejoel/rwd-raster-builder.svg?style=flat-squared
 [build-url]: https://img.shields.io/github/actions/workflow/status/rhinejoel/dea-mosaic-builder/conda.yml?style=flat-squared&logo=github&label=CI
-[lint-url]: https://img.shields.io/github/actions/workflow/status/rhinejoel/dea-mosaic-builder/black.yml?style=flat-squared&logo=github&label=Black
+[lint-url]: https://img.shields.io/github/actions/workflow/status/rhinejoel/dea-mosaic-builder/black.yml?style=flat-squared&logo=github&label=lint
 [contributors-url]: https://github.com/rhinejoel/rwd-raster-builder/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/rhinejoel/rwd-raster-builder.svg?style=flat-squared
 [forks-url]: https://github.com/rhinejoel/rwd-raster-builder/network/members
