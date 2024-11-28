@@ -10,6 +10,6 @@ github_url = "https://github.com/rhinejoel/dea-mosaic-builder/tree/main/docs/sou
 # html_theme_options = {"logo_only": True}
 html_theme_options = {
     "sidebar_hide_name": True,
-    "light_logo": "rwd-header-light.png",
-    "dark_logo": "rwd-header-dark.png",
+    "light_logo": "_static/rwd-header-light.png",
+    "dark_logo": "_static/rwd-header-dark.png",
 }
