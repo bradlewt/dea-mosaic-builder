@@ -32,13 +32,13 @@
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-squared&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/joel-rhine
 
-<br />
+
 <br />
 <div align="center">
-  <img src="static/readme-images/rwd-header.png" alt="Readme header image showing pre-flood and flood outputs using the RWD raster builder for a location in Lake Chad, Chad, Africa." width=30%>
+  <img src="static/readme-images/rwd-header-dark.png" alt="Readme header image showing pre-flood and flood outputs using the RWD raster builder for a location in Lake Chad, Chad, Africa." width=30%>
 </div>
 <br />
-<br />
+
 
 <div align=justify>
 
