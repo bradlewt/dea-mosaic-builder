@@ -56,9 +56,9 @@ The DEA Toolkit also has ready-to-work workflows of complex real-world problems 
 
 </div>
 
-# Documentation for Read the Docs
+# Documentation for DEA Mosaic Builder
 
-You will find complete documentation for setting up your project at [DEA Mosaic Builder Docs](https://mosaicbuilder.readthedocs.io).
+You will find complete documentation for setting up and running your project at [DEA Mosaic Builder Docs](https://mosaicbuilder.readthedocs.io).
 
 <!-- TABLE OF CONTENTS -->
 <details>
