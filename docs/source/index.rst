@@ -1,5 +1,5 @@
-DEA Mosaic Builder Documentation
-================================
+DEA Mosaic Builder
+==================
 
 Prerequisites
 -------------
