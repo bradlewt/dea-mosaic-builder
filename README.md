@@ -16,18 +16,18 @@
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/rhinejoel/rwd-raster-builder.svg?style=flat-squared?
-[build-url]: https://img.shields.io/github/actions/workflow/status/rhinejoel/dea-mosaic-builder/conda.yml?style=flat-squared&logo=github&label=CI
+[contributors-shield]: https://img.shields.io/github/contributors/rhinejoel/rwd-raster-builder.svg?style=flat-squared?style=flat-squared&logo=github
+[build-url]: https://img.shields.io/github/actions/workflow/status/rhinejoel/dea-mosaic-builder/conda.yml?style=flat-squared&logo=pytest&label=CI&logoColor=white
 [lint-url]: https://img.shields.io/github/actions/workflow/status/rhinejoel/dea-mosaic-builder/black.yml?style=flat-squared&logo=task&label=lint&logoColor=white
 [docs-url]: https://img.shields.io/readthedocs/mosaicbuilder?logo=readthedocs&logoColor=white
 [contributors-url]: https://github.com/rhinejoel/rwd-raster-builder/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/rhinejoel/rwd-raster-builder.svg?style=flat-squared
+[forks-shield]: https://img.shields.io/github/forks/rhinejoel/rwd-raster-builder.svg?style=flat-squared&logo=github
 [forks-url]: https://github.com/rhinejoel/rwd-raster-builder/network/members
-[stars-shield]: https://img.shields.io/github/stars/rhinejoel/rwd-raster-builder.svg?style=flat-squared
+[stars-shield]: https://img.shields.io/github/stars/rhinejoel/rwd-raster-builder.svg?style=flat-squared&logo=github
 [stars-url]: https://github.com/rhinejoel/rwd-raster-builder/stargazers
-[issues-shield]: https://img.shields.io/github/issues/rhinejoel/rwd-raster-builder.svg?style=flat-squared
+[issues-shield]: https://img.shields.io/github/issues/rhinejoel/rwd-raster-builder.svg?style=flat-squared&logo=github
 [issues-url]: https://github.com/rhinejoel/rwd-raster-builder/issues
-[license-shield]: https://img.shields.io/github/license/rhinejoel/rwd-raster-builder.svg?style=flat-squared
+[license-shield]: https://img.shields.io/github/license/rhinejoel/rwd-raster-builder.svg?style=flat-squared&logo=github
 [license-url]: https://github.com/rhinejoel/rwd-raster-builder/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-squared&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/joel-rhine
