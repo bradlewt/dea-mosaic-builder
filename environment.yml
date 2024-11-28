@@ -16,3 +16,5 @@ dependencies:
   - anaconda::scikit-image
   - pip:
       - deafrica-tools
+      - esbonio
+      - sphinx_rtd_theme

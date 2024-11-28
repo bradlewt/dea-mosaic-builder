@@ -1,33 +1,22 @@
 DEA Mosaic Builder
 ==================
 
-Prerequisites
--------------
+Official documentation to setup and run the DEA Mosaic builder. `Github Home`_
 
-Google Cloud Project
-~~~~~~~~~~~~~~~~~~~~
-DEA Sandbox
-~~~~~~~~~~~
-Local Environment
-~~~~~~~~~~~~~~~~~
-
-This is an example of ``code``
-
-`A cool website`_
-
-.. _A cool website: http://sphinx-doc.org
-
-A cool bit of code::
-
-   Some cool Code
-
-.. code-block:: rst
-
-   A bit of **rst** which should be *highlighted* properly.
+.. _Github Home: https://github.com/rhinejoel/dea-mosaic-builder/tree/main
 
 .. toctree::
-   :caption: Contents:
-   
-   gcs
-   local
-   sandbox
+   :caption: Setup:
+   :hidden: true
+
+   setup/gcs
+   setup/local
+   setup/sandbox
+
+.. toctree::
+   :caption: Run:
+   :hidden: true
+
+   run/genthreshold
+   run/genaoicounts
+   run/genfloodraster
