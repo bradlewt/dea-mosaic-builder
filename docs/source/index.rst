@@ -7,7 +7,6 @@ Official documentation to setup and run the DEA Mosaic builder. `Github Home`_
 
 .. toctree::
    :caption: Setup:
-   :hidden: true
 
    setup/gcs
    setup/local
@@ -15,7 +14,6 @@ Official documentation to setup and run the DEA Mosaic builder. `Github Home`_
 
 .. toctree::
    :caption: Run:
-   :hidden: true
 
    run/genthreshold
    run/genaoicounts
