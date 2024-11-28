@@ -16,18 +16,18 @@
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/rhinejoel/rwd-raster-builder.svg?style=flat-squared?style=flat-squared&logo=github
-[build-url]: https://img.shields.io/github/actions/workflow/status/rhinejoel/dea-mosaic-builder/conda.yml?style=flat-squared&logo=pytest&label=CI&logoColor=white
+[contributors-shield]: https://img.shields.io/github/contributors/rhinejoel/rwd-raster-builder.svg?style=flat-squared?style=flat-squared
+[build-url]: https://img.shields.io/github/actions/workflow/status/rhinejoel/dea-mosaic-builder/conda.yml?style=flat-squared&logo=anaconda&label=CI&logoColor=white
 [lint-url]: https://img.shields.io/github/actions/workflow/status/rhinejoel/dea-mosaic-builder/black.yml?style=flat-squared&logo=task&label=lint&logoColor=white
 [docs-url]: https://img.shields.io/readthedocs/mosaicbuilder?logo=readthedocs&logoColor=white
 [contributors-url]: https://github.com/rhinejoel/rwd-raster-builder/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/rhinejoel/rwd-raster-builder.svg?style=flat-squared&logo=github
+[forks-shield]: https://img.shields.io/github/forks/rhinejoel/rwd-raster-builder.svg?style=flat-squared
 [forks-url]: https://github.com/rhinejoel/rwd-raster-builder/network/members
-[stars-shield]: https://img.shields.io/github/stars/rhinejoel/rwd-raster-builder.svg?style=flat-squared&logo=github
+[stars-shield]: https://img.shields.io/github/stars/rhinejoel/rwd-raster-builder.svg?style=flat-squared
 [stars-url]: https://github.com/rhinejoel/rwd-raster-builder/stargazers
-[issues-shield]: https://img.shields.io/github/issues/rhinejoel/rwd-raster-builder.svg?style=flat-squared&logo=github
+[issues-shield]: https://img.shields.io/github/issues/rhinejoel/rwd-raster-builder.svg?style=flat-squared
 [issues-url]: https://github.com/rhinejoel/rwd-raster-builder/issues
-[license-shield]: https://img.shields.io/github/license/rhinejoel/rwd-raster-builder.svg?style=flat-squared&logo=github
+[license-shield]: https://img.shields.io/github/license/rhinejoel/rwd-raster-builder.svg?style=flat-squared
 [license-url]: https://github.com/rhinejoel/rwd-raster-builder/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-squared&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/joel-rhine
@@ -55,6 +55,10 @@ The DEA Toolkit also has ready-to-work workflows of complex real-world problems 
 <br />
 
 </div>
+
+# Documentation for Read the Docs
+
+You will find complete documentation for setting up your project at [DEA Mosaic Builder Docs](https://mosaicbuilder.readthedocs.io).
 
 <!-- TABLE OF CONTENTS -->
 <details>

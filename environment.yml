@@ -18,3 +18,4 @@ dependencies:
       - deafrica-tools
       - esbonio
       - sphinx_rtd_theme
+      - furo
