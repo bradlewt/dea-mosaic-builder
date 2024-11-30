@@ -35,7 +35,11 @@
 
 <br />
 <div align="center">
-  <img src="static/readme-images/rwd-header2.png" alt="Readme header image showing pre-flood and flood outputs using the RWD raster builder for a location in Lake Chad, Chad, Africa." width=30%>
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/source/_static/rwd-header-light.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/source/_static/rwd-header-dark.png">
+  <img alt="Shows a black logo in light color mode and a white one in dark color mode." width=70%>
+</picture>
 </div>
 <br />
 
