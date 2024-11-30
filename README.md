@@ -36,8 +36,8 @@
 <br />
 <div align="center">
   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/source/_static/rwd-header-light.png">
-  <source media="(prefers-color-scheme: light)" srcset="docs/source/_static/rwd-header-dark.png">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/source/_static/rwd-header-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="docs/source/_static/rwd-header-light.png">
   <img alt="Shows a black logo in light color mode and a white one in dark color mode." width=70%>
 </picture>
 </div>
