@@ -5,6 +5,8 @@ author = "Joel Rhine"
 html_theme = "furo"
 
 html_static_path = ["_static"]
+templates_path = ["_templates"]
+
 html_theme_options = {
     "sidebar_hide_name": True,
     "light_logo": "rwd-header-light.png",
@@ -17,19 +19,19 @@ html_theme_options = {
             "name": "GitHub",
             "url": "https://github.com/rhinejoel/dea-mosaic-builder",
             "html": "",
-            "class": "fa-brands fa-solid fa-github fa-x",
+            "class": "fa-brands fa-solid fa-github",
         },
         {
             "name": "LinkedIn",
             "url": "https://www.linkedin.com/in/joel-rhine",
             "html": "",
-            "class": "fa-brands fa-linkedin fa-x",
+            "class": "fa-brands fa-linkedin",
         },
         {
             "name": "Email",
-            "url": "mailto:joelrhine7@gmail.com",
+            "url": "mailto:joelrhine7@gmail.com?subject=Mosaic Builder Docs",
             "html": "",
-            "class": "fa-solid fa-envelope fa-x",
+            "class": "fa-solid fa-envelope",
         },
     ],
 }
