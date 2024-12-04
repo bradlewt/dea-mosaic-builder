@@ -160,7 +160,7 @@ Executing this will open the default browser's window and ask to choose a Google
 .. image:: ../_static/lc/lc-13.png
     :align: center
 
-.. important:: Click on "Show Advanced" and click "Proceed to Mosaic Builder", if it appears
+.. important:: Click on "Show Advanced" and click "Proceed to Mosaic Builder", if it appears.
 
 .. image:: ../_static/lc/lc-14.png
     :align: center
