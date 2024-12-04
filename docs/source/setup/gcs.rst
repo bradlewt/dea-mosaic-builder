@@ -1,6 +1,20 @@
 Google Cloud Services Integration
 =================================
 
+The way that the Mosaic Builder overcomes the disc storage limitations of the DEA Sandbox is by storing data into Google Drive using the Google Drive API via GCS. This is only required if you intend to generate data for the entire ADM0 AOI. As for smaller areas, the sandbox's disc storage is sufficient. In this page we will setup the GCS services that we require to integrate with the sandbox.
+
+Steps: 
+
+1. `Create Google Account`_
+2. `Create GCS Project`_
+3. `Enable Google Drive API`_
+4. `Google Drive Account`_
+
+.. _Create Google Account: #create-google-account
+.. _Create GCS Project: #create-gcs-project
+.. _Enable Google Drive API: #enable-google-drive-api
+.. _Google Drive Account: #google-drive-account
+
 Create Google Account
 ---------------------
 
@@ -38,13 +52,14 @@ On GCS Home, you should see "My First Project". Go to `Project Settings`_ or cli
     :align: center
 
 
-Enable GDrive API
------------------
+Enable Google Drive API
+-----------------------
 
 Type "drive" in the search bar and click on Google Drive API. Click "Enable".
 
 .. image:: ../_static/gcs-5.png
     :align: center
+
 
 Google Drive Account
 --------------------
