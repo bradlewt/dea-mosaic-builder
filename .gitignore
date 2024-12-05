@@ -8,4 +8,6 @@ test.ipynb
 .DS_Store
 build
 dea-docs
+*.drawio
+*.bkp
 
