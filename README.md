@@ -60,7 +60,7 @@ The DEA Toolkit also has ready-to-work workflows of complex real-world problems 
 
 </div>
 
-# Documentation for DEA Mosaic Builder
+## Documentation for DEA Mosaic Builder
 
 You will find complete documentation for setting up and running your project at [DEA Mosaic Builder Docs](https://mosaicbuilder.readthedocs.io).
 
@@ -68,7 +68,7 @@ You will find complete documentation for setting up and running your project at 
 
 <!-- CONTRIBUTORS -->
 
-# Contributors:
+## Contributors:
 
 <a href="https://github.com/rhinejoel/rwd-raster-builder/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=rhinejoel/rwd-raster-builder" alt="contrib.rocks image" />
@@ -77,14 +77,14 @@ You will find complete documentation for setting up and running your project at 
 
 <!-- LICENSE -->
 
-# License
+## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 <br />
 
 <!-- CONTACT -->
 
-# Contact
+## Contact
 
 [Email](mailto:joelrhine7@gmail.com)
 Website: [Joel Rhine | Home](https://joelrhine.tech)
@@ -92,7 +92,7 @@ Website: [Joel Rhine | Home](https://joelrhine.tech)
 
 <!-- REFERENCES -->
 
-# References
+## References
 
 - [Digital Earth Africa](https://www.digitalearthafrica.org/)
 - [DEA Analysis Sandbox](https://docs.digitalearthafrica.org/en/latest/sandbox/index.html)
