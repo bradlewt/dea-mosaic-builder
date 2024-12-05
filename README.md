@@ -65,7 +65,9 @@ The DEA Toolkit also has ready-to-work workflows of complex real-world problems 
 You will find complete **readthedocs** documentation for setting up and running your project along with the quicksetup at [DEA Mosaic Builder Docs](https://mosaicbuilder.readthedocs.io).
 
 <div align=center>
+<a href="https://mosaicbuilder.readthedocs.io">
 <img src="docs/source/_static/index/readme-1.png" width=80% alt="Image of Digital Earth Africa login page">
+</a>
 </div>
 
 ## Quicksetup
