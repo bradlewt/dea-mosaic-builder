@@ -62,13 +62,38 @@ The DEA Toolkit also has ready-to-work workflows of complex real-world problems 
 
 ## Documentation for DEA Mosaic Builder
 
-You will find complete documentation for setting up and running your project at [DEA Mosaic Builder Docs](https://mosaicbuilder.readthedocs.io).
+You will find complete **readthedocs** documentation for setting up and running your project along with the quicksetup at [DEA Mosaic Builder Docs](https://mosaicbuilder.readthedocs.io).
+
+## Quicksetup
+
+Create a Digital Earth Africa account and login using the [Login](https://sandbox.digitalearth.africa/hub/login) page.
+
+<div align=center>
+<img src="docs/source/_static/sandbox/sb-1.png" width=80% alt="Image of Digital Earth Africa login page">
+</div>
+
+Choose one from the default or large environment and click **Start**
+
+Once the server is ready, open the Jypyter `terminal` and clone this repository using
+
+<div align=center>
+<img src="docs/source/_static/sandbox/sb-2.png" width=80% alt="Image of DEA sandbox jupyter laucher page highlighting the terminal">
+</div>
+
+```
+git clone https://github.com/rhinejoel/dea-mosaic-builder.git
+
+cd dea-mosaic-builder
+```
+
+Your directory should now have a new folder **dea-mosaic-builder**. The second command moves the terminal within the **dea-mosaic-builder** folder.
+
+> Further detailed documentation available at [DEA Mosaic Builder Docs](https://mosaicbuilder.readthedocs.io)
 
 <br />
-
 <!-- CONTRIBUTORS -->
 
-## Contributors:
+## Contributors
 
 <a href="https://github.com/rhinejoel/rwd-raster-builder/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=rhinejoel/rwd-raster-builder" alt="contrib.rocks image" />
