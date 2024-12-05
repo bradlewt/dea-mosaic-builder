@@ -1,6 +1,9 @@
 DEA Mosaic Builder
 ==================
 
+Introduction
+------------
+
 Official documentation to setup and run the **DEA Mosaic builder**. `Github Home`_
 
 The `DEA Analysis Sandbox`_ is a ``Jupyter Lab`` instance maintained and served by `Digital Earth Africa`_. A number of click-to-run jupyter notebooks are available in the ``sandbox`` that are capable of fetching a range of ``Sentinel-1`` satellite data for a single location. For this purpose the sanbox's memory and storage resources are more than sufficient. 
@@ -33,6 +36,9 @@ This documentation provides a **step-by-step guide** to setup and run each of th
 
 ----
 
+Setup
+-----
+
 The first part of this documentation deals with all the necessary steps required to set this automated pipeline up and the second part gives an understanding of how to run the pipeline.
 
 .. image:: _static/index/id-1.png
@@ -46,10 +52,13 @@ There are three main components to setup the **Mosaic Builder**:
 
 Each component requires setup and is covered in this documentation in detail.
 
+Run
+---
+
+And as of now, there are three notebooks to run the pipeline.
+
 .. image:: _static/index/id-2.png
    :align: center
-
-And as of now, there are three notebooks to run the pipeline:
 
 * **Generate AOI Thresholds** - ``1. aoi-threshold.ipynb`` Generates a threshold report based on a sample area covering land and water.
 * **Calculate Dataset Water Values** - ``2. aoi-cell-count.ipynb`` Generates a table of count of ``wet pixels`` each month for a 12 month period.
