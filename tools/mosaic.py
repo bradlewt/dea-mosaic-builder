@@ -6,15 +6,16 @@ from osgeo import gdal
 class CreateMosaic:
     def __init__(self):
         gdal.UseExceptions()
+        gdal.SetConfigOption("CHECK_DISK_FREE_SPACE", "NO")
 
     def create_mosaic(
-        self, indirs: list[str], root: str, a3: str, tifdir: str = None
+        self, root: str, a3: str, indirs: list[str] = None, tifdir: str = None
     ) -> None:
         """
         Creates a .vrt mosaic of input rasters. Creates .tif if tifdir is specified.
 
         Parameters:
-        indirs: list[str], required
+        indirs: None, optional
             List of folders containing .tif files to be merged.
         root: str, required
             Parent folder path of indirs.
@@ -33,8 +34,9 @@ class CreateMosaic:
             print("'merged' folder does not exist. Creating...")
             os.makedirs(merged_folder)
 
-        for dir in indirs:
-            loc = os.path.join(root, dir)
+        if indirs == None:
+            dir = os.path.basename(root)
+            loc = root
             ext = "*.tif"
             q = os.path.join(loc, ext)
             files = glob.glob(q)
@@ -60,6 +62,36 @@ class CreateMosaic:
                     print("Creating {}.tif".format(outname))
                     gdal.Translate(tif_out, vrt, format="GTiff")
                     vrt = None
+        else:
+            for dir in indirs:
+                loc = os.path.join(root, dir)
+                ext = "*.tif"
+                q = os.path.join(loc, ext)
+                files = glob.glob(q)
+                if len(files) == 0:
+                    print("{} is empty. Continuing to next directory".format(dir))
+                else:
+                    print(
+                        "Found {} Files. Merging in {} folder".format(len(files), dir)
+                    )
+                    outname = "{}_{}_merged_{}".format(a3, period, dir)
+                    vrt_file = os.path.join(merged_folder, outname + ".vrt")
+
+                    if os.path.exists(vrt_file):
+                        print("{}.vrt exists.".format(outname))
+                    else:
+                        # create vrt if it does not exist
+                        print("Creating {}.vrt".format(outname))
+                        vrt = gdal.BuildVRT(vrt_file, files)
+                        vrt = None
+
+                    if tifdir != None and os.path.exists(vrt_file):
+                        # create tif if output dir is specified
+                        vrt = gdal.Open(vrt_file)
+                        tif_out = os.path.join(tifdir, outname + ".tif")
+                        print("Creating {}.tif".format(outname))
+                        gdal.Translate(tif_out, vrt, format="GTiff")
+                        vrt = None
 
     def vrt2tif(self, indir: str, outdir: str) -> None:
         """
