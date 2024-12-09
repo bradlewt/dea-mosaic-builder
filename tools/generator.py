@@ -521,7 +521,6 @@ class GenMosaic:
         boundary_buffer: float,
         cell_size: float,
     ) -> list | gpd.GeoDataFrame | pd.DataFrame:
-
         """
         Processes the input ADM file. File does not have to be ADM0 and can be any vectorfile.
 
@@ -566,14 +565,18 @@ class GenMosaic:
                 "Area",
                 "Area with Buffer",
                 "Cell Size",
-                "Number of Cells"
+                "Number of Cells",
             ],
             "Value": [
                 shp,
-                "{} KM2".format(round((adm0_b.to_crs("EPSG:3857").area).iloc[0]/(10**6), 2)),
-                "{} KM2".format(round((adm0.to_crs("EPSG:3857").area).iloc[0]/(10**6), 2)),
+                "{} KM2".format(
+                    round((adm0_b.to_crs("EPSG:3857").area).iloc[0] / (10**6), 2)
+                ),
+                "{} KM2".format(
+                    round((adm0.to_crs("EPSG:3857").area).iloc[0] / (10**6), 2)
+                ),
                 cell_size,
-                len(c)
+                len(c),
             ],
         }
         adm_df = pd.DataFrame(adm_data)
@@ -582,4 +585,4 @@ class GenMosaic:
         self.view_input([grid, adm0], c)
         print("\n")
 
-        return(c, grid, adm_df)
+        return (c, grid, adm_df)
