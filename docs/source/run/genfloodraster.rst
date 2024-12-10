@@ -153,9 +153,9 @@ Open Google Drive Desktop and verify all the raster data that was generated from
 .. image:: ../_static/flood/flood-5.png
     :align: center
 
-Open the ``test.ipynb`` notebook in the local environment you created using the `Local Env`_ guide.
+Open the ``test.ipynb`` notebook in the local environment you created using the `Local Environment`_ guide.
 
-.. _Local Env:setup/local.html#test-functions
+.. _Local Environment: setup/local.html#test-functions
 
 .. note:: Run the cells again, just to make sure everything is working well. 
 
@@ -174,7 +174,7 @@ Once you have verified that everything is working well, create a ``.VRT`` raster
     root = "<path_to_project>/maxflood"
     cm.create_mosaic(root, "ISO_A3_Code")
 
-This will create a ``.VRT`` raster file at ``root`` with the name given under ``ISO_A3_Code``, which is a three letter code for the country.
+This will create a ``.VRT`` raster file at ``root`` with the name given under ``ISO_A3_Code``, which is a three letter `code <https://www.iban.com/country-codes>`_ for the country.
 
 On running you should see the following output:
 
