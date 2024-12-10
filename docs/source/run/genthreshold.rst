@@ -7,6 +7,10 @@ This is the threshold that identifies where land ends and where water begins. Ad
 
 .. _Radar Water Detection with Sentinel-1: https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Real_world_examples/Radar_water_detection.html
 
+.. image:: ../_static/th/th-0.png 
+    :align: center
+    :scale: 30%
+
 Prerequisites
 -------------
 
