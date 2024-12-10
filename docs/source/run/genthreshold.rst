@@ -27,7 +27,7 @@ If you receive a message that says ``All directories created``, it means that al
 Create Sample Data Cells
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Using `QGIS`_ or `ArcGIS`_ create an polygon that covers land and water and save it as a vector file. The vector file may be in any CRS and must be as an ESRI shapefile or a GEOJSON file. For now we will export the file in CRS ``EPSG 4326`` and as a GEOJSON.
+Using `QGIS`_ or `ArcGIS`_ create an polygon that covers land and water and save it as a vector file. The vector file may be in any CRS and must be as an ESRI shapefile or a ``GEOJSON`` file. For now we will export the file in CRS ``EPSG 4326`` and as a ``GEOJSON``.
 
 .. important:: Make sure that the polygon does not cover a very large area. An area of around 1000 Km2 is good.
 
@@ -39,7 +39,7 @@ Using `QGIS`_ or `ArcGIS`_ create an polygon that covers land and water and save
 .. _QGIS: https://qgis.org/
 .. _ArcGIS: https://www.esri.com/en-us/arcgis/geospatial-platform/overview
 
-Upload the polygon GEOJSON file to the **input/** folder that was just created after running the first cell.
+Upload the polygon ``GEOJSON`` file to the **input/** folder that was just created after running the first cell.
 
 .. important:: If using ESRI shapefile (``*.shp``), make sure to upload all the auxillary files as well.
 
