@@ -1,6 +1,8 @@
 Generate AOI Counts
 ===================
 
+.. important:: This notebook takes round 5 - 7 hours to complete.
+
 This notebook gives an understanding of the actual **wet** pixels in all the cells of the ``ADM0`` grid as a ``CSV`` file. The input here is prepared or downloaded from a credible source which is converted into a grid. The **wet** or water pixels of each cell is calculated for each month in a 12-month period and stored in a ``CSV`` file also containing the cell-centroid coordinates, thus, enabling futher analysis.
 
 .. image:: ../_static/count/ct-0.png 
