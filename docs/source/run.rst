@@ -10,9 +10,6 @@ Run
    run/aoi
    run/flood
 
-Run
----
-
 And as of now, there are three notebooks to run the pipeline.
 
 .. image:: _static/index/id-2.png

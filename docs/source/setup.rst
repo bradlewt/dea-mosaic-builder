@@ -10,9 +10,6 @@ Setup
    setup/local
    setup/sandbox
 
-Setup
------
-
 The first part of this documentation deals with all the necessary steps required to set this automated pipeline up and the second part gives an understanding of how to run the pipeline.
 
 .. image:: _static/index/id-1.png
