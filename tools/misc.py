@@ -17,7 +17,10 @@ def get_maxmonth(c_csv: str) -> None:
     file_name = os.path.splitext(os.path.basename(c_csv))[0]
     c_pd = pd.read_csv(c_csv)
 
-    max_month = pd.concat([c_pd, c_pd.idxmax(axis=1)], axis=1)
+    base = c_pd.iloc[:, :5] # base information
+    data = c_pd.iloc[:, 5:] # month data
+
+    max_month = pd.concat([base, data, data.idxmax(axis=1)], axis=1) # concat base + month data + max month of data
     max_month = max_month.rename(columns={0: "maxmonth"})
 
     max_month.to_csv(os.path.join(parent, "{}_maxmonth.csv".format(file_name)))
