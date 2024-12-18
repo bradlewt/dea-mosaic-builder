@@ -8,7 +8,7 @@ class CreateMosaic:
         gdal.UseExceptions()
         gdal.SetConfigOption("CHECK_DISK_FREE_SPACE", "NO")
 
-    def create_mosaic(
+    def tiles2tif(
         self, root: str, a3: str, indirs: list[str] = None, tifdir: str = None
     ) -> None:
         """
@@ -22,7 +22,7 @@ class CreateMosaic:
         a3: str, required
             Alpha3 code of the country.
         tifdir: str = None, optional
-        Output directory for .the tif files (not recommended).
+            Output directory for .the tif files. Make sure enough disc space is available.
 
         Returns:
         None
@@ -103,7 +103,7 @@ class CreateMosaic:
 
     def vrt2tif(self, indir: str, outdir: str) -> None:
         """
-        Converts .vrt to .tif. Recommemded to use QGIS instead as it used gdal-C and this works on gdal-python.
+        Converts .vrt to .tif. Make sure enough disc space is available.
 
         Parameters:
         indir: str, required
