@@ -73,6 +73,7 @@ class CreateMosaic:
                 ext = "*.tif"
                 q = os.path.join(loc, ext)
                 files = glob.glob(q)
+                vrt_exists = False
                 if len(files) == 0:
                     print("{} is empty. Continuing to next directory".format(dir))
                 else:
