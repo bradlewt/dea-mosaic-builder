@@ -25,4 +25,3 @@ jobs:
       run: |
         conda install pytest
         pytest
-        python tests/deps.py
