@@ -11,7 +11,8 @@ dependencies:
   - conda-forge::google-api-python-client
   - pytest
   - conda-forge::pytest-cov
-  - python=3.10
+  - pip=24.0
+  - python=3.12
   - conda-forge::rioxarray
   - anaconda::scikit-image
   - pip:
