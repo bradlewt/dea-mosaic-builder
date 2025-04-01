@@ -3,7 +3,6 @@
 
 [![Contributors][contributors-shield]][contributors-url]
 ![GitHub Actions Workflow Status][build-url]
-![Lint Workflow Status][lint-url]
 ![Docs Status][docs-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -17,8 +16,7 @@
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/rhinejoel/rwd-raster-builder.svg?style=flat-squared?style=flat-squared
-[build-url]: https://img.shields.io/github/actions/workflow/status/rhinejoel/dea-mosaic-builder/conda.yml?style=flat-squared&logo=anaconda&label=CI&logoColor=white
-[lint-url]: https://img.shields.io/github/actions/workflow/status/rhinejoel/dea-mosaic-builder/black.yml?style=flat-squared&logo=task&label=lint&logoColor=white
+[build-url]: https://img.shields.io/github/actions/workflow/status/rhinejoel/dea-mosaic-builder/lint-pytest.yml?style=flat-squared&logo=anaconda&label=CI&logoColor=white
 [docs-url]: https://img.shields.io/readthedocs/mosaicbuilder?logo=readthedocs&logoColor=white
 [contributors-url]: https://github.com/rhinejoel/rwd-raster-builder/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/rhinejoel/rwd-raster-builder.svg?style=flat-squared
