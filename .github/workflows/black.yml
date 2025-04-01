@@ -3,8 +3,9 @@ name: Lint
 on: [push, pull_request]
 
 jobs:
-  lint:
-    runs-on: ubuntu-latest
+  setup:
+    name: Lint and Setup
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
       - uses: psf/black@stable
@@ -13,3 +14,15 @@ jobs:
           src: "."
           jupyter: true
           version: "22.3"
+    
+      - uses: mamba-org/setup-micromamba@v2
+        with:
+          generate-run-shell: true
+          environment-file: environment.yml
+      - run: |
+          pytest --version
+          pytest
+        shell: micromamba-shell {0}
+
+
+      
