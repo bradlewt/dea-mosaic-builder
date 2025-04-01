@@ -24,6 +24,7 @@ jobs:
       - run: |
           pytest --version
           pytest
+          python tests/deps.py
         shell: micromamba-shell {0}
 
 
