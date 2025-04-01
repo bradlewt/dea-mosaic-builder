@@ -10,5 +10,5 @@ build
 dea-docs
 *.drawio
 *.bkp
-tests/deps.py
+# tests/deps.py
 
