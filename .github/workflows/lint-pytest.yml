@@ -19,6 +19,8 @@ jobs:
         with:
           generate-run-shell: true
           environment-file: environment.yml
+          cache-environment: true
+          cache-downloads: true
       - run: |
           pytest --version
           pytest
